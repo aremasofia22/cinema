@@ -436,17 +436,21 @@ sup .movie-number {
 }
 
 .info-img {
-    width: 240px;
-    height: 150px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .info-link {
-    padding: 0px 15px;
-    max-width: 240px;
+    margin-bottom: 20px;
+}
+
+.link-news {
+    color: #fff;
 }
 
 .article-link {
-    color: black;
+    color: #fff;
     display: flex;
     justify-content: center;
     font-weight: 700;
@@ -454,7 +458,7 @@ sup .movie-number {
 }
 
 .addon-info .article-link:hover {
-    color: #00bff0;
+    text-decoration: underline;
 }
 
 
