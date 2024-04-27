@@ -49,16 +49,14 @@ h1 {
 /* header */
 
 .header {
-    padding: 20px;
-}
-
-.header {
     background-color: #201c2ba8;
     color: #fff;
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
+    padding: 20px;
+    z-index: 2;
 }
 
 .header img {
