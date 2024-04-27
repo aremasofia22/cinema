@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="27px" viewBox="0 0 20 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>navigation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1.000000, 0.000000)" fill="#1EA1DC">
+            <g id="navigation">
+                <path d="M10.889,26.999 C10.889,26.999 0.995,15.833 0.995,10.301 C0.995,4.768 5.425,0.282 10.889,0.282 C16.353,0.282 20.783,4.768 20.783,10.301 C20.783,15.833 10.889,26.999 10.889,26.999 Z M10.889,6.961 C9.067,6.961 7.59,8.456 7.59,10.301 C7.59,12.145 9.067,13.64 10.889,13.64 C12.711,13.64 14.187,12.145 14.187,10.301 C14.187,8.456 12.711,6.961 10.889,6.961 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
