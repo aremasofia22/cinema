@@ -18,14 +18,6 @@ body {
     -ms-hyphens: auto;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: calc(1.375rem + 1.5vw);
-}
-
-
-
 /* global  */
 
 .btn-primary {
@@ -50,7 +42,6 @@ h1 {
 
 .header {
     background-color: #201c2ba8;
-    color: #fff;
     position: fixed;
     width: 100%;
     left: 0;
@@ -84,9 +75,6 @@ h1 {
     color: #d4b8ff;
 }
 
-.header .navbar-nav>.nav-item>.nav-link {
-    color: #fff;
-}
 
 .header .nav-link {
     display: block;
@@ -101,12 +89,8 @@ h1 {
 /*  footer  */
 .m-footer {
     background-color: #a087c038;
-    color: #fff;
 }
 
-.m-footer .text-muted {
-    color: #fff !important
-}
 
 .m-footer a.text-muted:hover {
     text-decoration: underline;
@@ -120,7 +104,6 @@ h1 {
     max-width: 400px;
     margin: 0 auto;
     background: #201c2ba8;
-    color: #fff;
     padding: 20px;
     border-radius: 15px;
 }
@@ -181,8 +164,11 @@ h1 {
 }
 
 .film-details .details b {
-    color: white;
     font-weight: bold;
+}
+
+.film-time  {
+    text-wrap: balance;
 }
 
 .film-time .card {
@@ -200,13 +186,9 @@ h1 {
 }
 
 .film-time .duration {
-    color: white;
     padding: 20px 0px;
 }
 
-.film-time .desc-p {
-    color: white;
-}
 
 .film-time .form-select {
     max-width: 180px;
@@ -231,7 +213,6 @@ h1 {
 
 .film-time .session-time button:hover {
     background-color: #6d26d8;
-    color: #fff;
 }
 
 
@@ -272,10 +253,6 @@ sup .movie-number {
     padding: 20px 0px;
 }
 
-.name-div h1 {
-    color: white;
-}
-
 .movie-number {
     font-size: 16px;
     color: #959595;
@@ -311,7 +288,6 @@ sup .movie-number {
 }
 
 
-
 .film-tags {
     position: absolute;
     top: 5px;
@@ -333,7 +309,6 @@ sup .movie-number {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 
@@ -367,7 +342,6 @@ sup .movie-number {
     position: relative;
     border: 1px solid #fff;
     font-size: 14px;
-    color: #fff;
 }
 
 .btn-outline-light2:hover path {
@@ -435,31 +409,6 @@ sup .movie-number {
     justify-content: center;
 }
 
-.info-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
-.info-link {
-    margin-bottom: 20px;
-}
-
-.link-news {
-    color: #fff;
-}
-
-.article-link {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    text-align: center;
-}
-
-.addon-info .article-link:hover {
-    text-decoration: underline;
-}
 
 
 /* other */
