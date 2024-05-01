@@ -9,15 +9,23 @@ body {
     overflow-y: scroll;
     background-color: #15042a;
     text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
+    
+}
+p{
+    color: white;
 }
 
+a{
+    color: #ae86ea;
+    text-decoration: none;
+}
+h1, h4,h5{
+    color: white;
+}
+
+b{
+    color: rgba(255, 255, 255, 0.709);
+}
 /* global  */
 
 .btn-primary {
@@ -25,7 +33,6 @@ body {
     background-color: #ab73ff;
     box-shadow: 0 4px 20px rgba(135, 192, 89, .2);
     font-size: 14px;
-    margin-top: 10px;
 }
 
 .btn-primary:hover {
@@ -36,7 +43,9 @@ body {
 
 .main-container {
     padding-top: 120px;
+    margin: 30px 0px;
 }
+
 
 /* header */
 
@@ -46,7 +55,7 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    padding: 20px;
+    padding: 18px 20px;
     z-index: 2;
 }
 
@@ -63,12 +72,15 @@ body {
     font-weight: bold;
 }
 
-.header .nav-link:hover {
+.header .navbar-nav>.nav-item .nav-link:hover {
     text-shadow: 5px 4px 5px #724e80;
+    color: #d4b8ff;
 }
 
 .header .navbar-nav>.nav-item .nav-link {
     font-weight: bold;
+    color: white;
+    font-size: 18px;
 }
 
 .header .navbar-nav>.nav-item:hover>.nav-link {
@@ -82,6 +94,9 @@ body {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
+.header .dropdown-menu{
+    background-color: #201c2ba8;
+}
 
 
 
@@ -92,8 +107,12 @@ body {
 }
 
 
-.m-footer a.text-muted:hover {
-    text-decoration: underline;
+.m-footer a.nav-link:hover {
+    color: #6d26d8;
+}
+
+.m-footer a.nav-link{
+    color: #b98bffd6;
 }
 
 
@@ -103,10 +122,17 @@ body {
 .login-form {
     max-width: 400px;
     margin: 0 auto;
-    background: #201c2ba8;
+    background: #d09bff4a;
     padding: 20px;
     border-radius: 15px;
 }
+
+label{
+    color: white;
+    text-shadow: 1px 1px 1px #6d26d8;
+    margin-bottom: 5px;
+}
+
 
 .login-form a:hover {
     text-decoration: underline;
@@ -145,6 +171,9 @@ body {
     stroke: black;
 }
 
+.container .about-film{
+        padding: 0px 33px;
+}
 .film-details {
     display: flex;
     flex-direction: column;
@@ -171,11 +200,25 @@ body {
     text-wrap: balance;
 }
 
+.card{
+    height: 100%;
+}
+.card-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container> .login-form{
+    height: 430px;
+}
+
 .film-time .card {
     padding: 41px 40px 33px 40px;
     border-radius: 30px;
     box-shadow: 9px 1px 18px 8px rgb(0 0 0 / 22%);
-    max-width: 500px;
+    max-width: 397px;
 
 }
 
@@ -183,10 +226,12 @@ body {
     margin-left: 3px;
     font-weight: bold;
     font-size: 23px;
+    margin-bottom: 18px;
 }
 
 .film-time .duration {
     padding: 20px 0px;
+    color: rgba(255, 255, 255, 0.709);
 }
 
 
@@ -245,12 +290,16 @@ sup .movie-number {
     transition: 1.6s ease-in-out left;
 }
 
+.name-div{
+    padding: 10px 29px;
+}
 .name-movie-stripe h1 {
     font-family: inherit;
     font-weight: normal;
     font-size: 32px;
     line-height: 48px;
     padding: 20px 0px;
+    color: white;
 }
 
 .movie-number {
@@ -279,6 +328,10 @@ sup .movie-number {
     box-shadow: 4px 3px 20px #6d26d8;
     margin-left: auto;
     margin-right: auto;
+}
+
+.films-grid{
+    margin: 0px 30px;
 }
 
 .film:hover .film-info {
@@ -393,11 +446,17 @@ sup .movie-number {
 
 .container-4 {
     padding: 20px 60px;
-    border-bottom: 1px solid #e1e1e1;
 }
 
+ h2 {
+    color:white
+}
 .link-news a {
     color: #1aa3e0;
+}
+
+.link-news{
+    margin-bottom: 28px;
 }
 
 .link-news a:hover {
