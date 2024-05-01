@@ -42,7 +42,7 @@ b{
 }
 
 .main-container {
-    padding-top: 120px;
+    padding-top: 75px;
     margin: 30px 0px;
 }
 
@@ -98,7 +98,20 @@ b{
     background-color: #201c2ba8;
 }
 
-
+/* j script header */
+header#navbar {
+    font-family: "Inter", sans-serif;
+    background-color: #201c2ba8; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
+    transition: background-color 0.5s; 
+  }
+  header#navbar.active {
+    background-color: #301c4ed9; 
+  }
 
 
 /*  footer  */
