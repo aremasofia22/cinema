@@ -132,8 +132,12 @@ header#navbar {
 
 /* login pagr */
 
+.container> .login-form{
+    height: 428px;
+}
+
 .login-form {
-    max-width: 400px;
+    max-width: 30px;
     margin: 0 auto;
     background: #d09bff4a;
     padding: 20px;
@@ -221,10 +225,6 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.container> .login-form{
-    height: 430px;
 }
 
 .film-time .card {
