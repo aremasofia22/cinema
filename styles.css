@@ -74,7 +74,10 @@ b{
 .header .nav-link {
     font-weight: bold;
 }
+.header .navbar-nav{
+    background-color: #201c2ba8;
 
+}
 .header .navbar-nav>.nav-item .nav-link:hover {
     text-shadow: 5px 4px 5px #724e80;
     color: #d4b8ff;
